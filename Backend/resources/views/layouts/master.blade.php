@@ -44,8 +44,8 @@
       -->
 
 <body class="hold-transition sidebar-mini">
-    <div class="header-title text-center bg-dark text-white" style="font-family: Consolas;">
-        Trang quản lý NBSTORE
+    <div class="header-title text-center bg-success text-white" style="font-family: Consolas;">
+        Trang quản lý Tiến Vũ Store
     </div>
     <div class="wrapper">
         <!-- Navbar -->
@@ -162,7 +162,7 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="/" class="brand-link text-center navbar-dark"
+            <a href="/" class="brand-link text-center navbar-dark bg-info"
                 style="height: 80px; display:flex; justify-content: center; align-items: center;">
                 <img src={{ asset('dist/img/your-logo.png') }} alt="AdminLTE Logo" class="brand-image elevation-3">
             </a>

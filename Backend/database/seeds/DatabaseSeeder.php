@@ -45,12 +45,12 @@ class nguoi_dungs extends Seeder
     public function run()
     {
         DB::table('nguoi_dungs')->insert([
-            ['Email'=>'nhatminh785@gmail.com','TenNguoidung'=>'Minh Nhựt','SDT'=>'0911079197','DiaChi'=>'Nha Be','Anh'=>'', 'GioiTinh'=>1,'username'=>'minhnhut123','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>1],
-            ['Email'=>'binhgold@gmail.com','TenNguoidung'=>'Thái Bình','SDT'=>'12345678','DiaChi'=>'Quận 8','Anh'=>'', 'GioiTinh'=>1,'username'=>'tb1234','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>2],
-            ['Email'=>'canh@gmail.com','TenNguoidung'=>'Thanh Cảnh','SDT'=>'12345678','DiaChi'=>'Nhà Bè','Anh'=>'', 'GioiTinh'=>1,'username'=>'test1234','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>2],
-            ['Email'=>'thao@gmail.com','TenNguoidung'=>'Thảo','SDT'=>'12345678','DiaChi'=>'Quận 1','Anh'=>'', 'GioiTinh'=>1,'username'=>'binhdang','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>1],
-            ['Email'=>'trang@gmail.com','TenNguoidung'=>'Trang','SDT'=>'12345678','DiaChi'=>'Quận 1','Anh'=>'', 'GioiTinh'=>1,'username'=>'trangvu','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>1],
-            ['Email'=>'huongnhi@gmail.com','TenNguoidung'=>'Hương Nhi','SDT'=>'12345678','DiaChi'=>'Quận 1','Anh'=>'', 'GioiTinh'=>1,'username'=>'Hương Nhi','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>1],
+            ['Email'=>'tienxmin0123@gmail.com','TenNguoidung'=>'Tiến Vũ','SDT'=>'0961743857','DiaChi'=>'Hà Nội','Anh'=>'', 'GioiTinh'=>1,'username'=>'tienxmin0123','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>1],
+            ['Email'=>'nnhtra@gmail.com','TenNguoidung'=>'Hương Trà','SDT'=>'085125215','DiaChi'=>'Ba Đình - Hà Nội','Anh'=>'', 'GioiTinh'=>2,'username'=>'nnhtra','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>2],
+            ['Email'=>'maituananh@gmail.com','TenNguoidung'=>'Mai Tuấn Anh','SDT'=>'12345678','DiaChi'=>'Hải Phòng','Anh'=>'', 'GioiTinh'=>1,'username'=>'maituananh','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>2],
+            ['Email'=>'ngoduchiep@gmail.com','TenNguoidung'=>'Ngô Đức Hiệp','SDT'=>'12345678','DiaChi'=>'Hà Nội','Anh'=>'', 'GioiTinh'=>1,'username'=>'ngoduchiep','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>1],
+            ['Email'=>'duyenpham@gmail.com','TenNguoidung'=>'Phạm Thị Duyên','SDT'=>'12345678','DiaChi'=>'Hà Nội','Anh'=>'', 'GioiTinh'=>2,'username'=>'duyenpham','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>1],
+            ['Email'=>'caonguyen@gmail.com','TenNguoidung'=>'Cao Chí Nguyên','SDT'=>'12345678','DiaChi'=>'Hà Nội','Anh'=>'', 'GioiTinh'=>1,'username'=>'caonguyen','password'=>bcrypt('12345'),'loai_nguoi_dungs_id'=>1],
 
         ]);
     }
