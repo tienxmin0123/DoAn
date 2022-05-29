@@ -9,7 +9,7 @@
                             <tr>
                                 <td align="center" class="m_-6158600730156614244indeed-logo" style="padding:25px 0px">
                                     <a href="http://localhost:3000/" target="_blank">
-                                        <img class="m_-6158600730156614244jecl-Icon-img CToWUd" src="http://localhost:3000/static/media/logo-nbstore.ef1509cc.png" alt="nbstore-logo" width="100" style="display:block" border="0">
+                                        <img class="m_-6158600730156614244jecl-Icon-img CToWUd" src="http://localhost:3000/static/media/logo.png" alt="-logo" width="100" style="display:block" border="0">
                                     </a>
                                 </td>
                             </tr>
@@ -25,7 +25,7 @@
                                         text-align: center;">
                                             <div style="margin: 10px">
                                                 <h3 style="margin: 10px">
-                                                    Chào mừng {{ $user->username }} đã đăng ký thành viên tại NBSTORE.VN. Bạn hãy click vào đường link sau đây
+                                                    Chào mừng {{ $user->username }} đã đăng ký thành viên tại TVSTORE.VN. Bạn hãy click vào đường link sau đây
                                                     để hoàn tất việc đăng ký.
                                                     </br>
 
@@ -72,10 +72,10 @@
                                 <td bgcolor="#f4f4f4" align="left" style="padding:10px 10px 10px 30px;;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:18px">
                                     <p style="margin:0">
                                         <a href="#" style="color:#111;font-weight:bold;font-size:12px" target="_blank">
-                                            NBSTORE UY TÍN SỐ 1
+                                            TVSTORE UY TÍN - CHẤT LƯỢNG
                                         </a> |
                                         <a href="#" style="color:#111;font-weight:bold;font-size:12px" target="_blank">
-                                            EMAIL: CSKH@NBSTORE.COM
+                                            EMAIL: CSKH@TVSTORE.COM
                                         </a>
                                     </p>
                                 </td>
@@ -84,7 +84,7 @@
                                 <td bgcolor="#f4f4f4" align="left" style="padding:10px 10px 10px 30px;;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:18px">
                                     <p style="margin:0">
                                         <a href="#" style="color:#111;font-weight:bold;font-size:12px" target="_blank">
-                                            Tổng đài miễn phí 1800 6975 (Làm việc từ 8h00 - 22h00)
+                                            Tổng đài miễn phí 0961743857 (Làm việc từ 8h00 - 21h00)
                                         </a> •
                                     </p>
                                 </td>
@@ -92,7 +92,7 @@
 
                             <tr>
                                 <td bgcolor="#f4f4f4" align="left" style="padding:10px 10px 10px 30px;;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:18px">
-                                    <h4 style="margin:0">SHOWROOM HCM(Làm việc từ 8h00 - 22h00)
+                                    <h4 style="margin:0">SHOWROOM HÀ NỘI(Làm việc từ 8h00 - 21h00)
 
                                     </h4>
                                 </td>
@@ -101,22 +101,14 @@
                             <tr>
                                 <td bgcolor="#f4f4f4" align="left" style="padding:0px 30px 15px 30px;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:18px">
                                     <p style="margin:0">
-                                        - Địa chỉ 1: 78-80-82 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.
-                                    </p>
-
-                                </td>
-                            </tr>
-                            <tr>
-                                <td bgcolor="#f4f4f4" align="left" style="padding:0px 30px 15px 30px;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:18px">
-                                    <p style="margin:0">
-                                        - Địa chỉ 2: 189 Cống Quỳnh, Phường Nguyễn Cư Trinh, Quận 1.
+                                        - Địa chỉ 1: 41A Đ. Phú Diễn, Phú Diễn, Bắc Từ Liêm, Hà Nội
                                     </p>
 
                                 </td>
                             </tr>
                             <tr>
                                 <td bgcolor="#f4f4f4" align="left" style="padding:10px 10px 10px 30px;;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:18px">
-                                    <h4 style="margin:0">SHOWROOM HN(Làm việc từ 8h00 - 21h00)
+                                    <h4 style="margin:0">SHOWROOM THANH HÓA(Làm việc từ 8h00 - 21h00)
 
                                     </h4>
                                 </td>
@@ -125,7 +117,7 @@
                             <tr>
                                 <td bgcolor="#f4f4f4" align="left" style="padding:0px 30px 15px 30px;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:18px">
                                     <p style="margin:0">
-                                        - Địa chỉ : 37 Ngõ 121 Thái Hà, Phường Trung Liệt, Quận Đống Đa.
+                                        - Địa chỉ : Số 4, Trần Phú, P. Ba Đình, Bỉm Sơn, Thanh Hoá.
                                     </p>
 
                                 </td>

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Admin</title>
+    <title>Quản Lý Cửa Hàng Tiến Vũ Store</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href={{ asset('dist/img/favicon.ico') }}>
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.css">
@@ -32,8 +34,8 @@
     <div class="login">
         <!-- Horizontal Form -->
         <div class="card">
-            <div class="card-header">
-                <h3 class="card-title text-white text-center">Đăng nhập</h3>
+            <div class="card-header bg-light">
+                <h3 class="card-title text-dark text-center">Đăng nhập</h3>
             </div>
             <!-- /.card-header -->
             <!-- form start -->
@@ -59,7 +61,7 @@
                         <div class="offset-sm-2 col-sm-10">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                                <label class="form-check-label text-white" for="exampleCheck2">Nhớ tài khoản của
+                                <label class="form-check-label text-dark" for="exampleCheck2">Nhớ tài khoản của
                                     tôi</label>
                             </div>
                         </div>

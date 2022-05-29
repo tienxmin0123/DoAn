@@ -2,17 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
 Route::get('/', 'TrangChuController@index')->middleware('checklogin::class')->name('home');
 
 Route::get('/quan-ly-san-pham', 'SanPhamController@index')->middleware('checklogin::class')->name('admin-products');;
@@ -64,7 +53,7 @@ Route::post('/updatepayment/{id}','HinhThucThanhToanController@UpdatePayments');
 
 Route::get('/quan-ly-hinh-thuc-thanh-toan/{id}','HinhThucThanhToanController@DeletePayments');//xóa hình thức thanh toán
 
-//Bình quản lis người dùng
+//quản lis người dùng
 Route::get('/quan-ly-nguoi-dung','CustomerController@index')->name('admin-customers')->middleware('checklogin::class');
 Route::get('/quan-ly-nguoi-dung/them-nguoi-dung','CustomerController@create')->middleware('checklogin::class');
 Route::post('/quan-ly-nguoi-dung/them-nguoi-dung','CustomerController@store')->middleware('checklogin::class');

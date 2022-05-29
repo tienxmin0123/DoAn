@@ -170,7 +170,7 @@ class RevenueMonthExport implements FromCollection, WithEvents , WithCustomStart
     }
     public function drawings()
     {
-        $img_file='../public/images/logo-nbstore.png';
+        $img_file='../public/images/logo.png';
         $drawing = new Drawing();
         $drawing->setName('Logo');
         $drawing->setDescription('This is my logo');
@@ -195,9 +195,9 @@ class RevenueMonthExport implements FromCollection, WithEvents , WithCustomStart
      
         $name =  auth()->user()? auth()->user()->TenNguoidung: 'Admin';
         return [
-            ['','     CỬA HÀNG MÁY TÍNH NBSTORE'],
+            ['','     CỬA HÀNG MÁY TÍNH TIẾN VŨ STORE'],
             [''],
-            ['Địa chỉ: ','189 Cống Quỳnh, Phường Nguyễn Cư Trinh, Quận 1.'],
+            ['Địa chỉ: ','41A Đ. Phú Diễn, Phú Diễn, Bắc Từ Liêm, Hà Nội'],
             ['Nội dung: ','Doanh thu tháng  '.$this->month.' năm '.$this->year],
             ['Người xuất: ',$name],
             ['Ngày xuất: ', date("H:i d-m-Y")],

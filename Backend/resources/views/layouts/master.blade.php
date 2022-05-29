@@ -7,7 +7,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Admin</title>
+    <title>Quản Lý Cửa Hàng Tiến Vũ Store</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href={{ asset('dist/img/favicon.ico') }}>
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href={{ asset('plugins/fontawesome-free/css/all.css') }}>
@@ -32,17 +34,6 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.2/min/dropzone.min.js" integrity="sha512-VQQXLthlZQO00P+uEu4mJ4G4OAgqTtKG1hri56kQY1DtdLeIqhKUp9W/lllDDu3uN3SnUNawpW7lBda8+dSi7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.2/min/dropzone.min.css" integrity="sha512-WvVX1YO12zmsvTpUQV8s7ZU98DnkaAokcciMZJfnNWyNzm7//QRV61t4aEr0WdIa4pe854QHLTV302vH92FSMw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<!--
-      BODY TAG OPTIONS:
-      =================
-      Apply one or more of the following classes to to the body tag
-      to get the desired effect
-      |---------------------------------------------------------|
-      |LAYOUT OPTIONS | sidebar-collapse                        |
-      |               | sidebar-mini                            |
-      |---------------------------------------------------------|
-      -->
-
 <body class="hold-transition sidebar-mini">
     <div class="header-title text-center bg-success text-white" style="font-family: Consolas;">
         Trang quản lý Tiến Vũ Store
@@ -160,9 +151,9 @@
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <aside class="main-sidebar sidebar-dark-primary bg-success text-dark elevation-4">
             <!-- Brand Logo -->
-            <a href="/" class="brand-link text-center navbar-dark bg-info"
+            <a href="/" class="brand-link text-center navbar-dark bg-warning"
                 style="height: 80px; display:flex; justify-content: center; align-items: center;">
                 <img src={{ asset('dist/img/your-logo.png') }} alt="AdminLTE Logo" class="brand-image elevation-3">
             </a>
@@ -278,7 +269,7 @@
 
         <!-- Main Footer -->
         <footer class="main-footer">
-            <strong>NBSTORE<a href="https://www.facebook.com/groups/327066398507712">NBSTORE
+            <strong><a href="https://www.facebook.com/Hunre.fanpage" target="_blank" style="margin : 0 0 0 8px;">TVStore
                     </a>.</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">

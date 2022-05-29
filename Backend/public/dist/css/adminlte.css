@@ -4853,11 +4853,6 @@ input[type="button"].btn-block {
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 0 solid rgba(0, 0, 0, 0.125);
 }
-
-.card-header:first-child {
-  border-radius: calc(0.25rem - 0) calc(0.25rem - 0) 0 0;
-}
-
 .card-header + .list-group .list-group-item:first-child {
   border-top: 0;
 }
@@ -31251,5 +31246,5 @@ a.text-muted:hover {
 .login .card{
   width: 400px;
   margin: auto;
-  background-image: url('../img/bg-login.jpg');
+  background : transparent;
 }

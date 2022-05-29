@@ -33,7 +33,7 @@ class TrangChuController extends Controller
             $status = $request->status_month<6&&$request->status_month>0?$request->status_month:0;
             $order_status= TrangThaiDonHang::find($status);
             $status_name = $order_status?$order_status->TenTrangThai:'Tất cả';
-            return Excel::download(new RevenueMonthExport($max_day,$month, $year,$status,$status_name),'Doanh thu ('.$status_name.') tháng '.$month.' năm '.$year.' NBStore.xlsx');
+            return Excel::download(new RevenueMonthExport($max_day,$month, $year,$status,$status_name),'Doanh thu ('.$status_name.') tháng '.$month.' năm '.$year.' TVStore.xlsx');
 
     }
     public function exportExcelYear(Request $request)
@@ -45,7 +45,7 @@ class TrangChuController extends Controller
             $order_status= TrangThaiDonHang::find($status);
             $status_name = $order_status?$order_status->TenTrangThai:'Tất cả';
            
-            return Excel::download(new RevenueYearExport($max_month, $year,$status,$status_name),'Doanh thu ('.$status_name.') năm '.$year.' NBStore.xlsx');
+            return Excel::download(new RevenueYearExport($max_month, $year,$status,$status_name),'Doanh thu ('.$status_name.') năm '.$year.' TVStore.xlsx');
 
     }
     public function revenueMonthApi(Request $request){

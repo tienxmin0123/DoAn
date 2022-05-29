@@ -57,7 +57,6 @@ class RevenueYearExport implements FromCollection, WithEvents , WithCustomStartC
     {
         
         return [
-            // Style the first row as bold text.
             2    => ['font' => ['bold' => true, 'italic' => true,'size' => 18]],
             7    => ['font' => ['bold' => true]],
             8    => ['font' => ['bold' => true]],
@@ -66,17 +65,6 @@ class RevenueYearExport implements FromCollection, WithEvents , WithCustomStartC
             5    => ['font' => ['bold' => true]],
             6    => ['font' => ['bold' => true]],
             12    => ['font' => ['bold' => true]],
-            // 'A1:A4'=>
-            // [
-            //     'alignment' => [
-            //         'horizontal' => \PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_RIGHT,
-            //     ],
-            // ]
-            // Styling a specific cell by coordinate.
-            // 'B2' => ['font' => ['italic' => true]],
-
-            // // Styling an entire column.
-            // 'C'  => ['font' => ['size' => 16]],
           
         ];
     }
@@ -149,7 +137,6 @@ class RevenueYearExport implements FromCollection, WithEvents , WithCustomStartC
     public function columnFormats(): array
     {
         return [
-            // 'C' => NumberFormat::FORMAT_DATE_DDMMYYYY,
         ];
     }
     public function startCell(): string
@@ -168,7 +155,7 @@ class RevenueYearExport implements FromCollection, WithEvents , WithCustomStartC
     }
     public function drawings()
     {
-        $img_file='../public/images/logo-nbstore.png';
+        $img_file='../public/images/logo.png';
         $drawing = new Drawing();
         $drawing->setName('Logo');
         $drawing->setDescription('This is my logo');
@@ -193,9 +180,9 @@ class RevenueYearExport implements FromCollection, WithEvents , WithCustomStartC
         $name =  auth()->user()? auth()->user()->TenNguoidung: 'Admin';
         
         return [
-            ['','     CỬA HÀNG MÁY TÍNH NBSTORE'],
+            ['','     CỬA HÀNG MÁY TÍNH TIẾN VŨ STORE'],
             [''],
-            ['Địa chỉ: ','189 Cống Quỳnh, Phường Nguyễn Cư Trinh, Quận 1.'],
+            ['Địa chỉ: ','41A Đ. Phú Diễn, Phú Diễn, Bắc Từ Liêm, Hà Nội'],
             ['Nội dung: ','Doanh thu  năm '.$this->year],
             ['Người xuất: ',$name],
             ['Ngày xuất: ', date("H:i d-m-Y")],

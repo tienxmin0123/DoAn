@@ -36,11 +36,11 @@
             <form method="GET" action="/doanh-thu/thang">
                 <div class="card">
                     <div class="card-header border-0">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between align-items-center">
                         <div id="title-revenue-month"> 
                                 <h3 class="card-title" style="display:flex;">Doanh thu tháng ... năm ... đang tải ...</h3>
                             </div>
-                            <div class="col-md-2" style="display: flex;"><p>Tháng  </p>
+                            <div class="col-md-2" style="display: flex ; align-items: center; align-items: center;"><p style="margin :0 8px 0 0">Tháng  </p>
                                 <select class="form-control value-revenue-month" id="month-revenue-month" name="month">
                                     @for($i=1;$i<=12;$i++)
                                         <!-- <option {{@$_GET['month']==$i?'selected':''}} value="{{$i}}">{{$i}}</option> -->
@@ -48,7 +48,7 @@
                                     @endfor
                                 </select>
                             </div>
-                            <div class="col-md-2" style="display: flex;"><p>Năm  </p>
+                            <div class="col-md-2" style="display: flex ; align-items: center; align-items: center;"><p style="margin :0 8px 0 0">Năm  </p>
                             @php
                             $start_year= 2021;
                             $len = (int)date('Y')-$start_year+1;
@@ -60,7 +60,7 @@
                                     @endfor
                                 </select>
                             </div>
-                            <div class="col-md-3" style="display: flex;"><p>Trạng thái  </p>
+                            <div class="col-md-3" style="display: flex ; align-items: center; align-items: center;"><p style="margin :0 8px 0 0">Trạng thái  </p>
                                 <select class="form-control value-revenue-month" id="status-month" name="status_month">
                                 <option value="0">Tất cả</option>
                                     @forEach($orders_status as $item)
@@ -86,13 +86,13 @@
             <form method="GET" action="/doanh-thu/nam">
                 <div class="card">
                     <div class="card-header border-0">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between align-items-center">
                             <div id="title-revenue-year"> 
                                 <h3 class="card-title" style="display:flex;">Doanh thu năm đang tải ...</h3>
                             </div>
                             
                         <!-- <h3 class="card-title">Doanh thu năm {{ $year_year}}: {{number_format($total_sales_year, 0, '', ',')}} VNĐ</h3> -->
-                            <div class="col-md-2" style="display: flex;"><p>Năm  </p>
+                            <div class="col-md-2" style="display: flex ; align-items: center;"><p style="margin : 0 8px 0 0">Năm  </p>
                             @php
                             $start_year= 2021;
                             $len = (int)date('Y')-$start_year+1;
@@ -107,11 +107,10 @@
                                     <option  value="2022">2022</option>
                                 </select>
                             </div>
-                            <div class="col-md-3" style="display: flex;"><p>Trạng thái  </p>
+                            <div class="col-md-3" style="display: flex ; align-items: center;"><p style="margin : 0 8px 0 0">Trạng thái  </p>
                                 <select class="form-control value-revenue-year" id="status-year" name="status_year">
                                 <option value="0">Tất cả</option>
                                     @forEach($orders_status as $item)
-                                   
                                         <option value="{{$item->id}}">{{$item->TenTrangThai}}</option>
                                     @endforeach
                                 </select>
@@ -131,7 +130,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-header border-0">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between align-items-center">
                             <h3 class="card-title">Đơn Hàng mới nhất</h3>
                             <a href="{{ route('admin-orders') }}">Xem chi tiết</a>
                         </div>
