@@ -1,0 +1,272 @@
+#layout-page-first .title-cart {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+#layout-page-first {
+    text-align: center;
+}
+#layout-page-first {
+    min-height: 250px;
+}
+.back-HomePage{
+    margin-left: 7px;
+}
+
+#layout-page-card .title-card {
+    padding-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+#layout-page-card {
+    min-height: 400px;
+    margin-top: 20px;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+}
+#layout-page-card #cartformpage table {
+    margin-bottom: 20px;
+}
+#layout-page-card #cartformpage table tr {
+    border: 1px solid #f0f0f0;
+}
+#layout-page-card #cartformpage table td ,#layout-page-card #cartformpage table th {
+    border-right: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#cartformpage table .image{
+    width: 186px;
+}
+#cartformpage table .item{
+    width: 628px;
+}
+#cartformpage table .qty{
+    width: 129px;
+}
+#cartformpage table .price{
+    width: 161px;
+}
+#cartformpage .qty input {
+    width: 50px;
+    text-align: center;
+}
+
+.remove i {
+    color: black;
+    cursor: pointer;
+}
+button.add {
+    background-color: #40c0f0;
+    width: 1.8rem;
+    height: 1.9rem;
+    font-size: .8rem;
+    padding: .2rem;
+    margin: .1rem;
+    border-radius: 1.5rem;
+    border: .1rem solid #404040;
+
+    cursor: pointer;
+  }
+
+  button.remove {
+    background-color: #f04040;
+    width: 1.8rem;
+    height: 1.9rem;
+    font-size: .8rem;
+    padding: .2rem;
+    margin: .1rem;
+    border-radius: 1.5rem;
+    border: .1rem solid #404040;
+
+    cursor: pointer;
+  }
+
+  .cart-qty{
+      font-size: 19px;
+  }
+  #layout-page-card #cartformpage table tr {
+    border: 1px solid #f0f0f0;
+}
+#layout-page-card #cartformpage table td, #layout-page-card #cartformpage table th {
+    border-right: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    text-align: center;
+    padding: 20px 0px;
+}
+#layout-page-card .inner-left.inner-right {
+    padding: 0px;
+}
+
+.cart-buttons button#checkout, .cart-buttons button#update-cart {
+    background: #ec2424;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+   margin-left: 90%;
+}
+
+
+#cartformpage .checkout-buttons {
+    display: inline;
+}
+.cart-container {
+    width: 790px;
+    margin: auto auto 20px auto;
+    background: #fff;
+    padding: 20px;
+}
+.cart-container>h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+.title_box_cart {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 6px;
+}
+.box-cart-user-info input  {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.box-cart-user-info select {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.left input {
+    width: auto;
+    height: auto;
+}
+#orther-payment {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+#orther-payment span {
+    font-size: 18px;
+    padding: 0 10px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+#momo input {
+    width: auto;
+    height: auto;
+}
+#momo i {
+    height: 27px;
+    background-image: url(https://cdn.cellphones.com.vn/media/logo/icon-online_21102019.png);
+     background-repeat: no-repeat;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    background-position: -162px;
+    margin-bottom: 15px;
+}
+i.cps-zalopay {
+    width: 75px;
+    margin: 5px 0;
+    background-position: 0 -30px;
+}
+
+#paypal input {
+    width: auto;
+    height: auto;
+}
+#vnpay input {
+    width: auto;
+    height: auto;
+    margin-top: 17px;
+}
+i.cs-vnpay{
+    width: 75px;
+    margin: 5px 0;
+    /* background-position: 0 -30px; */
+}
+#vnpay i {
+    height: 27px;
+    background-image: url(https://cdn.cellphones.com.vn/media/logo/icon-online_21102019.png);
+     background-repeat: no-repeat;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    background-position:-73px -27px ;
+    margin-bottom: 15px;
+}
+.gearvn-cart-empty{
+    margin-top: 50px;
+}
+.gearvn-cart-empty img {
+    width: 100%;
+    margin-left: 30%;
+    max-width: 420px;
+}
+img.lazy {
+    min-height: 1px;
+}
+.gearvn-cart-empty>p {
+    margin: 25px 0;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+.return-to-shop {
+    text-align: center;
+    margin-bottom: 7em;
+}
+ .return-to-shop a {
+    align-items: center;
+    padding: 10px 10px;
+    width: 320px;
+    margin: 0 auto;
+    height: 45px;
+    border: 1px solid #C6C5C5;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: rgb(15, 2, 2);
+}
+.button:hover{
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.print_price{
+    margin: 30%;
+    font-size: 14px;
+    color: black;
+}
+.cart-container .input-group.name .MuiOutlinedInput-root{
+    width: 350px !important;
+    height: 100% !important;
+}
+.cart-container .input-group.name{
+    margin-bottom: 15px;
+}
